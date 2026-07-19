@@ -1,4 +1,4 @@
-![JIWON SHIN](https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=130&text=JIWON%20SHIN&fontSize=54&fontColor=ffd23f&fontAlignY=50)
+# `JIWON SHIN`
 
 > **Full-stack & AI/ML engineer.** I build recommendation systems and the products around them.
 
