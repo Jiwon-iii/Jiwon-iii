@@ -1,6 +1,6 @@
 # `JIWON SHIN`
 
-> **Full-stack & AI/ML engineer.** I build recommendation systems and the products around them.
+> **Full-stack & AI/ML engineer.** I build recommendation systems — and the products around them.
 
 ---
 
