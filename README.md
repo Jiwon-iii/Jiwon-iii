@@ -1,12 +1,12 @@
 <div align="center">
 
-  <img src="./assets/intro-header.svg" alt="Jiwon Shin profile introduction" width="100%" />
+  <img src="./assets/profile-header.svg" alt="Jiwon Shin profile header" width="100%" />
 
 </div>
 
 ## Hi, I'm Jiwon Shin
 
-아이디어를 실제로 사용할 수 있는 제품으로 만드는 과정에 관심이 많은 개발자입니다.
+외주 프로젝트를 진행하며 **기획 → 개발 → 운영**까지 제품이 만들어지는 전 과정을 경험한 개발자입니다.
 
 프론트엔드, 백엔드, AI/ML을 오가며  
 단순 기능 구현보다 **사용 흐름, 구조, 유지보수성**을 함께 고민합니다.
@@ -69,10 +69,10 @@
 
 ## Key Strengths
 
+- **외주 기반 실전 경험**: 요구사항 정리부터 개발, 수정 대응, 운영 흐름까지 직접 경험했습니다.
 - **제품 흐름 중심 개발**: 사용자가 실제로 만나는 흐름을 기준으로 기능을 설계합니다.
 - **전방위 구현 경험**: 프론트엔드, 백엔드, AI/ML 로직을 함께 연결해봅니다.
 - **추천/랭킹 관심**: Learning-to-Rank, cold-start, 위치 기반 추천에 관심이 있습니다.
-- **꾸준한 개선**: 작은 기능도 구조와 유지보수성을 생각하며 다듬습니다.
 
 ---
 
