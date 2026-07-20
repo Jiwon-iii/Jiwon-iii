@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="tb">
+<title id="tb">Jiwon Shin</title>
+<defs>
+ <clipPath id="rr"><rect width="1200" height="300" rx="20"/></clipPath>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17181e"/><stop offset="1" stop-color="#121319"/></linearGradient>
+ <style>.s{font-family:'Segoe UI',Inter,system-ui,sans-serif}.m{font-family:ui-monospace,Consolas,monospace}</style>
+</defs>
+<g clip-path="url(#rr)">
+<rect width="1200" height="300" fill="url(#bg)"/>
+<path transform="rotate(180 715 96)" d="M675 96 A40 40 0 0 1 755 96 Z" fill="#e0785f" fill-opacity="1"/>
+<circle cx="815" cy="150" r="34" fill="none" stroke="#e6b566" stroke-width="7"/>
+<path transform="rotate(18 905 98)" d="M905 64 L939 132 L871 132 Z" fill="#8bb99e" fill-opacity="1" stroke-linejoin="round"/>
+<circle cx="985" cy="190" r="30" fill="#a98fb0" fill-opacity="1"/>
+<polyline transform="rotate(0 1000 88)" points="1000 88 1016 72 1032 88 1048 72 1064 88" fill="none" stroke="#6f9cc4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path transform="rotate(-90 1095 150)" d="M1059 150 A36 36 0 0 1 1131 150 Z" fill="#e6b566" fill-opacity="1"/>
+<circle cx="1120" cy="235" r="22" fill="none" stroke="#e0785f" stroke-width="7"/>
+<path transform="rotate(-12 1015 235)" d="M1015 211 L1039 259 L991 259 Z" fill="#6f9cc4" fill-opacity="1" stroke-linejoin="round"/>
+<circle cx="905" cy="175" r="12" fill="#e6b566" fill-opacity="1"/>
+<circle cx="770" cy="225" r="16" fill="#6f9cc4" fill-opacity="0.9"/>
+<circle cx="720" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="750" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="780" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="810" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="840" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="870" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="900" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="930" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="960" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="990" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="1020" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="1050" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="1080" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="1110" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<circle cx="1140" cy="255" r="2" fill="#8bb99e" fill-opacity="0.5"/>
+<text x="60" y="150" class="s" font-size="72" font-weight="800" fill="#f2efe9">Jiwon <tspan fill="#e0785f">Shin</tspan></text>
+<text x="63" y="192" class="s" font-size="21" font-weight="600" fill="#cfcabf">Full-stack <tspan fill="#e6b566">&#215;</tspan> AI / ML Product Engineer</text>
+<g transform="translate(63,222)"><circle cx="6" cy="0" r="6" fill="#8bb99e"/><text x="20" y="5" class="m" font-size="14" fill="#8f8a80">recommendation &#183; location-based &#183; local-commerce AI</text></g>
+</g>
+<rect x="1" y="1" width="1198" height="298" rx="19" fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
+</svg>
