@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./assets/profile-header.svg" alt="Jiwon Shin profile header" width="100%" />
+  <img src="./assets/header.svg" alt="Jiwon Shin — Full-stack × AI/ML Product Engineer" width="100%" />
 
   <br/>
   <br/>
