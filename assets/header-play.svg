@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="tb">
+<title id="tb">Jiwon Shin</title>
+<defs>
+ <clipPath id="rr2"><rect width="1200" height="300" rx="20"/></clipPath>
+ <style>.s{font-family:'Segoe UI',Inter,system-ui,sans-serif}.m{font-family:ui-monospace,Consolas,monospace}</style>
+</defs>
+<g clip-path="url(#rr2)">
+<rect width="1200" height="300" fill="#111318"/>
+<circle cx="1078.8434111824583" cy="228.5098614046449" r="37.87410555063339" fill="none" stroke="#a78bfa" stroke-width="6"/>
+<path transform="rotate(40.193383748129854 717.8699822430846 152.61990058919721)" d="M684.2332660770142 152.61990058919721 A33.63671616607046 33.63671616607046 0 0 1 751.506698409155 152.61990058919721 Z" fill="#ffd166"/>
+<path transform="rotate(88.39740787189004 668.0553848706749 218.12179756077907)" d="M668.0553848706749 182.7055200496244 L703.4716623818296 253.53807507193375 L632.6391073595202 253.53807507193375 Z" fill="#ff6b6b" fill-opacity="0.85"/>
+<circle cx="966.5789427729354" cy="175.42379500728558" r="20.40983466392455" fill="none" stroke="#ff6b6b" stroke-width="6"/>
+<circle cx="720.8103792829024" cy="93.22746300634725" r="16.84231249829408" fill="#a78bfa" fill-opacity="1"/>
+<path transform="rotate(41.15968934396019 895.1357808249606 180.86417574221898)" d="M865.1421325631704 180.86417574221898 A29.993648261790167 29.993648261790167 0 0 1 925.1294290867509 180.86417574221898 Z" fill="#22d3ee"/>
+<polyline points="835.5927310791446 161.27890183815478 853.5927310791446 143.27890183815478 871.5927310791446 161.27890183815478 889.5927310791446 143.27890183815478 907.5927310791446 161.27890183815478" fill="none" stroke="#ff6b6b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path transform="rotate(9.702279464844807 891.8288599192438 46.545420702168116)" d="M860.0608766208225 46.545420702168116 A31.767983298421356 31.767983298421356 0 0 1 923.5968432176651 46.545420702168116 Z" fill="#ff6b6b"/>
+<polyline points="824.8521718041453 250.76932433035898 842.8521718041453 232.76932433035898 860.8521718041453 250.76932433035898 878.8521718041453 232.76932433035898 896.8521718041453 250.76932433035898" fill="none" stroke="#ff6b6b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="869.0932562872432" cy="255.67896705834426" r="27.12788286621987" fill="#ff6b6b" fill-opacity="0.85"/>
+<polyline points="798.5532033159318 108.46611837423471 816.5532033159318 90.46611837423471 834.5532033159318 108.46611837423471 852.5532033159318 90.46611837423471 870.5532033159318 108.46611837423471" fill="none" stroke="#a78bfa" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="625.8061573039256" cy="142.28676613677095" r="29.63105217348775" fill="none" stroke="#22d3ee" stroke-width="6"/>
+<path transform="rotate(35.53680343827609 1142.1991450928444 209.29483941802948)" d="M1114.460691212713 209.29483941802948 A27.738453880131416 27.738453880131416 0 0 1 1169.9375989729758 209.29483941802948 Z" fill="#a78bfa"/>
+<path transform="rotate(89.811334681793 620.2495815082739 230.15346730950765)" d="M576.9535838104473 230.15346730950765 A43.295997697826635 43.295997697826635 0 0 1 663.5455792061005 230.15346730950765 Z" fill="#ff8fab"/>
+<circle cx="731.6764173602529" cy="126.74042015585195" r="39.922553247634454" fill="#22d3ee" fill-opacity="0.85"/>
+<path transform="rotate(34.75529601131282 733.018985346087 96.8210627295565)" d="M733.018985346087 59.18575141591745 L770.654296659726 134.45637404319555 L695.383674032448 134.45637404319555 Z" fill="#4ecdc4" fill-opacity="1"/>
+<circle cx="700" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="700" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="700" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="726" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="726" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="726" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="752" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="752" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="752" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="778" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="778" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="778" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="804" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="804" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="804" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="830" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="830" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="830" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="856" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="856" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="856" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="882" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="882" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="882" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="908" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="908" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="908" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="934" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="934" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="934" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="960" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="960" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="960" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="986" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="986" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="986" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1012" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1012" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1012" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1038" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1038" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1038" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1064" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1064" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1064" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1090" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1090" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1090" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1116" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1116" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1116" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1142" cy="210" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1142" cy="236" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<circle cx="1142" cy="262" r="2.2" fill="#4ecdc4" fill-opacity="0.7"/>
+<text x="60" y="150" class="s" font-size="72" font-weight="800" fill="#fdfdfd">Jiwon <tspan fill="#ffd166">Shin</tspan></text>
+<text x="63" y="192" class="s" font-size="21" font-weight="600" fill="#c9d1d9">Full-stack <tspan fill="#ff6b6b">&#215;</tspan> AI / ML Product Engineer</text>
+<g transform="translate(63,222)"><circle cx="6" cy="0" r="6" fill="#4ecdc4"/><text x="20" y="5" class="m" font-size="14" fill="#8b949e">recommendation &#183; location-based &#183; local-commerce AI</text></g>
+</g>
+<rect x="1" y="1" width="1198" height="298" rx="19" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>
