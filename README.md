@@ -28,19 +28,19 @@
 
 ## Selected Projects
 
-> 일부 프로젝트는 협업 및 보안상 Private Repository로 관리하고 있습니다.
+> 대부분의 프로젝트는 협업 및 보안상 Private Repository로 관리하고 있습니다.
 
-- **Ground-AI**  
-  AI 추천 엔진, 근처 장소 랭킹, GPS 기반 경로 생성 로직을 다루는 프로젝트입니다.
+- **AI 추천 / 위치 기반 서비스**  
+  근처 장소 랭킹, GPS 기반 경로 생성, 추천 로직을 다루는 프로젝트를 진행했습니다.
 
-- [AIsports-face-attendance](https://github.com/Jiwon-iii/AIsports-face-attendance)  
-  스포츠/스튜디오 운영 환경을 위한 얼굴 인식 출석 흐름을 다룬 프로젝트입니다.
+- **스포츠 운영 자동화 서비스**  
+  출석, 운영 관리, 사용자 흐름을 고려한 서비스 기능을 구현했습니다.
 
-- [Portfoliopage](https://github.com/Jiwon-iii/Portfoliopage)  
-  개인 포트폴리오 UI와 프론트엔드 표현을 실험한 프로젝트입니다.
+- **포트폴리오 / 웹 UI**  
+  프론트엔드 표현, 반응형 UI, 사용자에게 보이는 화면 구성을 실험했습니다.
 
-- [shop-nextjs-practice](https://github.com/Jiwon-iii/shop-nextjs-practice)  
-  Next.js 기반 커머스 UI와 프론트엔드 패턴을 연습한 프로젝트입니다.
+- **커머스 UI / 프론트엔드 패턴**  
+  Next.js 기반 화면 구성과 서비스형 UI 패턴을 연습했습니다.
 
 ---
 
