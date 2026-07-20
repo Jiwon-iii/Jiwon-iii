@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Quiet signal profile banner for Jiwon Shin</title>
+  <desc id="desc">A minimal dark profile banner centered on the name Jiwon Shin with subtle signal lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07090d"/>
+      <stop offset="0.58" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#05070a"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#48f5a6"/>
+      <stop offset="0.5" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#fb4f7a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="46%" r="55%">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0.2"/>
+      <stop offset="0.54" stop-color="#48f5a6" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="23"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.08"/>
+      </feComponentTransfer>
+      <feBlend mode="screen" in2="SourceGraphic"/>
+    </filter>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .flow { stroke-dasharray: 10 14; animation: flow 13s linear infinite; }
+      .pulse { animation: pulse 3.8s ease-in-out infinite; transform-origin: center; }
+      @keyframes flow { to { stroke-dashoffset: -240; } }
+      @keyframes pulse { 0%,100% { opacity: .36; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <rect width="1200" height="420" fill="url(#glow)"/>
+  <rect width="1200" height="420" filter="url(#grain)" opacity="0.5"/>
+
+  <path d="M72 68H1128M72 352H1128" stroke="#ffffff" stroke-opacity="0.08"/>
+  <path d="M88 52V368M1112 52V368" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <g opacity="0.9">
+    <path class="flow" d="M474 196 C594 102, 724 148, 828 198 S1010 284, 1110 182" fill="none" stroke="url(#signal)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M154 294 C292 214, 412 338, 554 260 S776 220, 900 286 S1022 302, 1090 256" fill="none" stroke="#ffffff" stroke-opacity="0.13" stroke-width="2" stroke-linecap="round"/>
+    <circle class="pulse" cx="474" cy="196" r="9" fill="#67e8f9"/>
+    <circle class="pulse" cx="908" cy="226" r="9" fill="#48f5a6"/>
+  </g>
+
+  <g transform="translate(132 110)">
+    <text x="0" y="0" fill="#67e8f9" class="mono" font-size="14" font-weight="700">FULL-STACK + AI/ML ENGINEER</text>
+    <text x="0" y="82" fill="#f8fafc" class="sans" font-size="74" font-weight="850">Jiwon Shin</text>
+    <text x="4" y="128" fill="#b6c2d1" class="sans" font-size="24">I build useful systems around ideas, data, and product flow.</text>
+  </g>
+
+  <g transform="translate(132 324)" class="mono" font-size="13" font-weight="700">
+    <rect x="0" y="-21" width="82" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="18" y="0" fill="#dbeafe">builder</text>
+    <rect x="96" y="-21" width="88" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="114" y="0" fill="#dcfce7">systems</text>
+    <rect x="198" y="-21" width="86" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="216" y="0" fill="#fce7f3">product</text>
+    <rect x="298" y="-21" width="58" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="316" y="0" fill="#cffafe">AI</text>
+  </g>
+
+  <g transform="translate(946 104)" class="mono" font-size="13" fill="#94a3b8">
+    <text x="0" y="0">signal_01</text>
+    <text x="0" y="26">quiet / useful / shipped</text>
+    <path d="M0 52H132" stroke="#ffffff" stroke-opacity="0.14"/>
+  </g>
+</svg>

@@ -1,15 +1,15 @@
 <div align="center">
 
-  <img src="./assets/neo-ticket-profile.svg" alt="Neo ticket profile banner for Jiwon Shin" width="100%" />
+  <img src="./assets/quiet-signal-profile.svg" alt="Quiet signal profile banner for Jiwon Shin" width="100%" />
 
   <br />
   <br />
 
   <a href="mailto:syrima03@gmail.com">
-    <img src="https://img.shields.io/badge/contact-syrima03%40gmail.com-15171c?style=for-the-badge&labelColor=48f5a6" alt="Email" />
+    <img src="https://img.shields.io/badge/contact-syrima03%40gmail.com-0d1117?style=for-the-badge&labelColor=67e8f9" alt="Email" />
   </a>
   <a href="https://github.com/Jiwon-iii">
-    <img src="https://img.shields.io/badge/github-Jiwon--iii-15171c?style=for-the-badge&logo=github&logoColor=fffdf4&labelColor=fb4f7a" alt="GitHub" />
+    <img src="https://img.shields.io/badge/github-Jiwon--iii-0d1117?style=for-the-badge&logo=github&logoColor=f8fafc&labelColor=48f5a6" alt="GitHub" />
   </a>
 
 </div>
@@ -17,21 +17,19 @@
 ---
 
 ```txt
-FULL-STACK + AI/ML ENGINEER
+I like building things that become useful in real hands.
 
-I build product layers around model behavior:
-recommendation systems, ranking APIs, GPS-aware routes,
-and clean user flows that turn data into something usable.
+I work across frontend, backend, and AI/ML, with a bias toward
+clear product flows, practical systems, and details that make
+technology easier to use.
 ```
 
-## Index
+## About
 
-| Key | Signal |
-| --- | --- |
-| `now` | Building an AI recommendation engine for nearby ranking and route generation |
-| `model` | Learning-to-rank, cold-start strategy, collaborative filtering |
-| `product` | Local-commerce AI, vertical SaaS, GPS-aware user workflows |
-| `stack` | TypeScript, React, Next.js, Python, FastAPI, Java, Spring |
+- Full-stack + AI/ML engineer
+- Interested in useful systems, recommendation logic, and product-side AI
+- Comfortable moving between interface, API, and model-driven behavior
+- Currently building around local-commerce AI and data-driven workflows
 
 ## Tools
 
@@ -45,16 +43,17 @@ and clean user flows that turn data into something usable.
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/Learning--to--Rank-15171c?style=flat-square&labelColor=48f5a6" alt="Learning to Rank" />
-  <img src="https://img.shields.io/badge/LightGBM-15171c?style=flat-square&labelColor=67e8f9" alt="LightGBM" />
-  <img src="https://img.shields.io/badge/Recommendation-15171c?style=flat-square&labelColor=fb4f7a" alt="Recommendation" />
-  <img src="https://img.shields.io/badge/Route%20Generation-15171c?style=flat-square&labelColor=ffb15e" alt="Route Generation" />
+  <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&labelColor=67e8f9" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-0d1117?style=flat-square&labelColor=48f5a6" alt="React" />
+  <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&labelColor=fb4f7a" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Spring-0d1117?style=flat-square&labelColor=fbbf24" alt="Spring" />
+  <img src="https://img.shields.io/badge/AI%2FML-0d1117?style=flat-square&labelColor=a78bfa" alt="AI/ML" />
 
 </div>
 
-## Work Log
+## Work
 
-| Project | Role |
+| Project | Notes |
 | --- | --- |
 | **Ground-AI** | AI recommendation work for nearby ranking, GPS-aware routes, and product-side ML integration |
 | [AIsports-face-attendance](https://github.com/Jiwon-iii/AIsports-face-attendance) | Face-attendance workflow for sports and studio operations |
@@ -73,6 +72,6 @@ and clean user flows that turn data into something usable.
 
 <div align="center">
 
-  <sub>models -> systems -> products -> shipped details</sub>
+  <sub>useful systems, shipped carefully</sub>
 
 </div>
