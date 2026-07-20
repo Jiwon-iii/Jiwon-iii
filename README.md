@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./assets/quiet-signal-profile.svg" alt="Quiet signal profile banner for Jiwon Shin" width="100%" />
+  <img src="./assets/data-bento-profile.svg" alt="Data bento profile banner for Jiwon Shin" width="100%" />
 
   <br />
   <br />
@@ -16,20 +16,12 @@
 
 ---
 
-```txt
-I like building things that become useful in real hands.
-
-I work across frontend, backend, and AI/ML, with a bias toward
-clear product flows, practical systems, and details that make
-technology easier to use.
-```
-
 ## About
 
 - Full-stack + AI/ML engineer
-- Interested in useful systems, recommendation logic, and product-side AI
+- I like building things that become useful in real hands
 - Comfortable moving between interface, API, and model-driven behavior
-- Currently building around local-commerce AI and data-driven workflows
+- Interested in recommendation logic, local-commerce AI, and clean product flows
 
 ## Tools
 
