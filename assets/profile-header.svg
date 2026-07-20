@@ -1,63 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Jiwon Shin profile header</title>
-  <desc id="desc">A clean portfolio-style profile header for Jiwon Shin.</desc>
+  <title id="title">Jiwon Shin editorial profile header</title>
+  <desc id="desc">A bright editorial-style profile header for Jiwon Shin.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1020"/>
-      <stop offset="0.55" stop-color="#111827"/>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="0.6" stop-color="#fbf6ea"/>
+      <stop offset="1" stop-color="#f1eadc"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
       <stop offset="1" stop-color="#0d1117"/>
     </linearGradient>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#f8fafc"/>
-      <stop offset="0.62" stop-color="#dbeafe"/>
-      <stop offset="1" stop-color="#a7f3d0"/>
-    </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7dd3fc"/>
-      <stop offset="0.55" stop-color="#86efac"/>
-      <stop offset="1" stop-color="#c4b5fd"/>
-    </linearGradient>
+    <pattern id="paperGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#111827" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
     <filter id="grain">
-      <feTurbulence type="fractalNoise" baseFrequency="0.74" numOctaves="2" seed="53"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="67"/>
       <feColorMatrix type="saturate" values="0"/>
       <feComponentTransfer>
-        <feFuncA type="table" tableValues="0 0.06"/>
+        <feFuncA type="table" tableValues="0 0.08"/>
       </feComponentTransfer>
-      <feBlend mode="screen" in2="SourceGraphic"/>
+      <feBlend mode="multiply" in2="SourceGraphic"/>
     </filter>
     <style>
       .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-      .draw { stroke-dasharray: 10 14; animation: draw 12s linear infinite; }
-      @keyframes draw { to { stroke-dashoffset: -230; } }
     </style>
   </defs>
 
-  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="22" filter="url(#grain)" opacity="0.55"/>
-  <path d="M76 72H1124M76 288H1124" stroke="#ffffff" stroke-opacity="0.08"/>
-  <path d="M96 56V304M1104 56V304" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect width="1200" height="360" rx="22" fill="#0d1117"/>
+  <rect x="76" y="44" width="1048" height="272" rx="16" fill="url(#paper)"/>
+  <rect x="76" y="44" width="1048" height="272" rx="16" fill="url(#paperGrid)"/>
+  <rect x="76" y="44" width="1048" height="272" rx="16" filter="url(#grain)" opacity="0.14"/>
+  <rect x="76" y="44" width="1048" height="272" rx="16" fill="none" stroke="#111827" stroke-opacity="0.85" stroke-width="2"/>
 
-  <g transform="translate(104 88)">
-    <text x="0" y="0" class="mono" font-size="14" font-weight="700" fill="#7dd3fc">FULL-STACK + AI/ML ENGINEER</text>
-    <text x="0" y="92" class="sans" font-size="86" font-weight="860" fill="url(#name)">Jiwon Shin</text>
-    <text x="4" y="142" class="sans" font-size="24" fill="#cbd5e1">Developer with freelance project experience.</text>
-    <g transform="translate(4 188)" class="mono" font-size="13" font-weight="700">
-      <rect x="0" y="-22" width="86" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
-      <text x="20" y="0" fill="#dbeafe">plan</text>
-      <rect x="100" y="-22" width="96" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
-      <text x="120" y="0" fill="#dcfce7">build</text>
-      <rect x="210" y="-22" width="90" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
-      <text x="232" y="0" fill="#ede9fe">ship</text>
+  <rect x="104" y="84" width="120" height="192" rx="10" fill="url(#dark)"/>
+  <text x="145" y="180" transform="rotate(-90 145 180)" class="mono" font-size="14" font-weight="800" fill="#f8fafc">PROFILE</text>
+  <circle cx="164" cy="124" r="22" fill="#7dd3fc"/>
+  <circle cx="164" cy="178" r="22" fill="#86efac"/>
+  <circle cx="164" cy="232" r="22" fill="#c4b5fd"/>
+
+  <g transform="translate(260 86)">
+    <text x="0" y="0" class="mono" font-size="14" font-weight="800" fill="#2563eb">FULL-STACK + AI/ML ENGINEER</text>
+    <text x="0" y="88" class="sans" font-size="78" font-weight="900" fill="#111827">Jiwon Shin</text>
+    <text x="2" y="136" class="sans" font-size="24" fill="#374151">Freelance project experience from planning to operation.</text>
+    <path d="M0 172H536" stroke="#111827" stroke-opacity="0.72" stroke-width="2"/>
+    <g transform="translate(0 208)" class="mono" font-size="13" font-weight="800">
+      <text x="0" y="0" fill="#111827">PLAN</text>
+      <text x="84" y="0" fill="#111827">BUILD</text>
+      <text x="176" y="0" fill="#111827">OPERATE</text>
+      <text x="292" y="0" fill="#4b5563">usable products with clean flow</text>
     </g>
   </g>
 
-  <g transform="translate(714 90)">
-    <path class="draw" d="M4 148 C84 54, 172 210, 274 118 S410 82, 436 154" fill="none" stroke="url(#line)" stroke-width="5" stroke-linecap="round"/>
-    <path d="M6 206 C92 142, 182 234, 290 178 S394 148, 438 204" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2" stroke-linecap="round"/>
-    <circle cx="122" cy="112" r="10" fill="#7dd3fc"/>
-    <circle cx="314" cy="112" r="10" fill="#86efac"/>
-    <circle cx="436" cy="154" r="8" fill="#c4b5fd"/>
-    <text x="22" y="254" class="mono" font-size="13" fill="#94a3b8">planning -> development -> operation</text>
+  <g transform="translate(920 84)">
+    <rect x="0" y="0" width="150" height="192" rx="10" fill="#111827"/>
+    <text x="24" y="44" class="mono" font-size="13" font-weight="800" fill="#86efac">CURRENT</text>
+    <text x="24" y="86" class="sans" font-size="30" font-weight="850" fill="#f8fafc">Useful</text>
+    <text x="24" y="120" class="sans" font-size="30" font-weight="850" fill="#f8fafc">systems</text>
+    <rect x="24" y="146" width="34" height="10" fill="#7dd3fc"/>
+    <rect x="66" y="146" width="34" height="10" fill="#86efac"/>
+    <rect x="108" y="146" width="18" height="10" fill="#c4b5fd"/>
   </g>
 </svg>
