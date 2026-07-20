@@ -1,15 +1,15 @@
 <div align="center">
 
-  <img src="./assets/lab-index-media.svg" alt="Lab index media art for Jiwon Shin" width="100%" />
+  <img src="./assets/neo-ticket-profile.svg" alt="Neo ticket profile banner for Jiwon Shin" width="100%" />
 
   <br />
   <br />
 
   <a href="mailto:syrima03@gmail.com">
-    <img src="https://img.shields.io/badge/contact-syrima03%40gmail.com-f43f5e?style=for-the-badge&labelColor=111827" alt="Email" />
+    <img src="https://img.shields.io/badge/contact-syrima03%40gmail.com-15171c?style=for-the-badge&labelColor=48f5a6" alt="Email" />
   </a>
   <a href="https://github.com/Jiwon-iii">
-    <img src="https://img.shields.io/badge/github-Jiwon--iii-22c55e?style=for-the-badge&logo=github&logoColor=111827&labelColor=f7f7f2" alt="GitHub" />
+    <img src="https://img.shields.io/badge/github-Jiwon--iii-15171c?style=for-the-badge&logo=github&logoColor=fffdf4&labelColor=fb4f7a" alt="GitHub" />
   </a>
 
 </div>
@@ -17,17 +17,16 @@
 ---
 
 ```txt
-JIWON SHIN
 FULL-STACK + AI/ML ENGINEER
 
-I build the product layer around model behavior:
-recommendation systems, GPS-aware routes, ranking APIs,
-and clean user flows that make data usable.
+I build product layers around model behavior:
+recommendation systems, ranking APIs, GPS-aware routes,
+and clean user flows that turn data into something usable.
 ```
 
 ## Index
 
-| Key | Current Signal |
+| Key | Signal |
 | --- | --- |
 | `now` | Building an AI recommendation engine for nearby ranking and route generation |
 | `model` | Learning-to-rank, cold-start strategy, collaborative filtering |
@@ -46,10 +45,10 @@ and clean user flows that make data usable.
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/Learning--to--Rank-111827?style=flat-square&labelColor=22c55e" alt="Learning to Rank" />
-  <img src="https://img.shields.io/badge/LightGBM-111827?style=flat-square&labelColor=38bdf8" alt="LightGBM" />
-  <img src="https://img.shields.io/badge/Recommendation-111827?style=flat-square&labelColor=f43f5e" alt="Recommendation" />
-  <img src="https://img.shields.io/badge/Route%20Generation-111827?style=flat-square&labelColor=f97316" alt="Route Generation" />
+  <img src="https://img.shields.io/badge/Learning--to--Rank-15171c?style=flat-square&labelColor=48f5a6" alt="Learning to Rank" />
+  <img src="https://img.shields.io/badge/LightGBM-15171c?style=flat-square&labelColor=67e8f9" alt="LightGBM" />
+  <img src="https://img.shields.io/badge/Recommendation-15171c?style=flat-square&labelColor=fb4f7a" alt="Recommendation" />
+  <img src="https://img.shields.io/badge/Route%20Generation-15171c?style=flat-square&labelColor=ffb15e" alt="Route Generation" />
 
 </div>
 
@@ -62,7 +61,7 @@ and clean user flows that make data usable.
 | [Portfoliopage](https://github.com/Jiwon-iii/Portfoliopage) | Personal portfolio UI and frontend presentation |
 | [shop-nextjs-practice](https://github.com/Jiwon-iii/shop-nextjs-practice) | Commerce UI practice with modern frontend patterns |
 
-## Activity Trace
+## Activity
 
 <div align="center">
 
