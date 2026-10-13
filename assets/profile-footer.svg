@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-labelledby="title">
+  <title id="title">設計から実装、運用まで。</title>
+  <defs><linearGradient id="line"><stop stop-color="#91e0ce" stop-opacity="0"/><stop offset=".5" stop-color="#c5c1ff"/><stop offset="1" stop-color="#91e0ce" stop-opacity="0"/></linearGradient></defs>
+  <path d="M0 12H1200" stroke="url(#line)"/>
+  <text x="600" y="65" text-anchor="middle" fill="#8b95a8" font-size="18" letter-spacing="3" font-family="'Yu Gothic','Meiryo','Noto Sans JP',sans-serif">設計から実装、運用まで。</text>
+</svg>
