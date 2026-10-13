@@ -1,127 +1,116 @@
-<div align="center">
-
-  <img src="./assets/header-play2.svg" alt="Jiwon Shin — Full-stack × AI/ML Product Engineer" width="100%" />
-
-  <br/>
-  <br/>
-
-  <a href="https://github.com/Jiwon-iii">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&pause=1200&color=7DD3FC&center=true&vCenter=true&width=720&height=40&lines=Full-stack+%C3%97+AI%2FML+Product+Engineer;Recommendation+%C2%B7+Location-based+%C2%B7+Local+Commerce+AI;%EA%B8%B0%ED%9A%8D+%E2%86%92+%EA%B0%9C%EB%B0%9C+%E2%86%92+%EC%9A%B4%EC%98%81%EA%B9%8C%EC%A7%80+%EB%A7%8C%EB%93%9C%EB%8A%94+%EA%B0%9C%EB%B0%9C%EC%9E%90" alt="typing headline" />
-  </a>
-
+﻿<div align="center">
+  <img src="./assets/header-play2.svg" alt="Jiwon Shin / Full-stack & AI Engineer" width="100%" />
+  <br /><br />
+  <a href="mailto:syrima03@gmail.com">Email</a>
+  &nbsp; / &nbsp;
+  <a href="#experience">Experience</a>
+  &nbsp; / &nbsp;
+  <a href="#tech-stack">Tech Stack</a>
 </div>
 
-<br/>
+<br />
 
-## 👋 Hi, I'm Jiwon Shin
+## 안녕하세요, 신지원입니다
 
-외주 프로젝트로 **기획 → 개발 → 운영**까지 제품이 만들어지는 전 과정을 경험한 개발자입니다.
-프론트엔드 · 백엔드 · AI/ML을 오가며, 단순 기능 구현보다 **사용 흐름 · 구조 · 유지보수성**을 함께 고민합니다.
+**업무를 이해하고, 실제로 쓰이는 기능을 만드는 개발자입니다.**
 
-지금은 **추천 로직 · 위치 기반 서비스 · 로컬 커머스 AI**처럼 데이터와 제품 경험이 만나는 영역을 중심으로 만들고 있어요.
+운영 중인 서비스의 주문·결제 흐름을 개선하고, 추천 모델을 웹 서비스에 연결하며, 흩어진 업무를 관리하는 SaaS를 개발하고 있습니다. 화면부터 API, 데이터베이스, 배포까지 필요한 영역을 맡아 구현합니다.
 
-<sub>🇯🇵 **日本語**</sub>
+조직의 비공개 저장소에서 주로 협업합니다. 아래에는 그동안 맡은 역할과 구현 내용을 정리했습니다.
 
-受託開発を通して、**企画 → 開発 → 運用**まで、プロダクトが生まれる全工程を経験したエンジニアです。
-フロントエンド・バックエンド・AI/ML を横断しながら、単なる機能実装よりも **利用フロー・構造・保守性** を大切に考えています。
+<details>
+<summary>日本語で読む</summary>
 
-現在は **レコメンドロジック・位置情報サービス・ローカルコマース AI** のように、データとプロダクト体験が交わる領域を中心に開発しています。
+<br />
 
-```ts
-const jiwon = {
-  role:    ["Frontend", "Backend", "AI / ML"],
-  focus:   ["Learning-to-Rank", "Cold-start", "Location-based Recsys"],
-  mindset: "제품 흐름부터 설계한다 — 화면 뒤의 구조까지.",
-};
-```
+**業務を理解し、実際に使われる機能をつくるエンジニアです。**
+
+運用中のサービスの注文・決済フローを改善し、推薦モデルをWebサービスに組み込み、業務を管理するSaaSを開発しています。画面からAPI、データベース、デプロイまで、必要な領域を担当しています。
+
+主に組織の非公開リポジトリでチーム開発を行っています。以下に、担当した役割と実装内容をまとめています。
+
+</details>
+
+<br />
+
+<h2 id="experience">Experience</h2>
+
+### 01 / 커머스 서비스 개발
+
+운영 중인 서비스에서 **기능 개발과 유지보수**를 담당했습니다.
+
+- 주문·배송 정보, 포인트 적립, 선물하기와 부분 취소 흐름 구현
+- 상품·예약 통합검색과 사용자 화면 개선, Java API 개발
+- 테스트 환경 배포와 CI 구성
+
+<sub>Next.js · TypeScript · Spring Boot · MySQL</sub>
+
+### 02 / 추천·위치 기반 AI
+
+**개발자 겸 PL**로 추천 모델과 서비스 연동을 설계·구현하고, 진행 관리와 기술적 의사결정을 맡았습니다. 현재 출시 전 단계입니다.
+
+- LightGBM 랭킹과 ALS 협업 필터링을 활용한 추천 기능
+- 위치·날씨를 반영한 여행 경로와 코스 저장·공유
+- Whisper LoRA를 활용한 음성인식과 상품 등록 지원
+- 기존 업무 DB의 읽기 접근과 AI 서비스 분리, 행동 로그 수집·재학습 구조
+
+<sub>Python · FastAPI · LightGBM · implicit ALS · Whisper · MongoDB</sub>
+
+### 03 / 멀티테넌트 운영 SaaS
+
+고객 요구사항을 정리하고 **화면 설계부터 프론트엔드·백엔드 구현**까지 참여하고 있습니다.
+
+- 회원·조직 관리, 이벤트·재고 관리와 QR 출석 기능
+- 사용자·운영자·본사 화면과 Go API 개발
+- 다국어 문구 분리, 스키마 기반 API 타입 생성
+- 외부 QA와 요구사항 및 검증 범위 조율
+
+<sub>Next.js · Go · Gin · sqlc · PostgreSQL · Redis</sub>
+
+### 04 / 현장 운영 도구
+
+**스포츠 대회 랭킹과 관리 시스템**에서 Java 백엔드와 개인전·단체전 순위 집계를 담당했습니다. 실제 대회 현장에서 사용되었습니다.
+
+얼굴인식 출석 기능도 단독 개발했으며, 장비 준비 문제로 현장 운영은 보류되었습니다. 별도로 웹 편집기와 재생 스케줄을 갖춘 **전자게시판**을 개발해 교내 TV에서 운영했습니다.
+
+<sub>Next.js · Java · MongoDB · CompreFace · Supabase · Raspberry Pi</sub>
+
+<br />
+
+<h2 id="tech-stack">Tech Stack</h2>
+
+| 영역 | 사용 기술 |
+| :--- | :--- |
+| Frontend | TypeScript, React, Next.js, Tailwind CSS, shadcn/ui |
+| Backend | Java, Spring Boot, Go, Gin, Python, FastAPI |
+| Data | PostgreSQL, MySQL, MongoDB, Redis, Supabase |
+| AI / ML | LightGBM, LambdaMART, implicit ALS, Whisper LoRA |
+| Infra | Docker, GitHub Actions, AWS, Vercel |
+
+<br />
+
+## How I work
+
+**요구사항을 기능과 데이터 구조로 정리합니다.** 주문·결제나 조직별 권한처럼 업무 흐름을 먼저 이해하고, 화면과 API가 같은 규칙을 따르도록 설계합니다.
+
+**구현 후 실제 동작을 확인합니다.** 테스트와 화면 검증을 함께 진행하고, 기존 서비스에 미치는 영향과 배포 이후의 운영도 고려합니다.
+
+**AI 도구를 개발 과정에 활용합니다.** Skills와 MCP로 조사·구현·검증 절차를 정리합니다. 핵심 구조는 직접 판단하고, 생성된 코드도 리뷰와 검증을 거칩니다.
+
+<details>
+<summary>日本語 / 開発で大切にしていること</summary>
+
+<br />
+
+業務の流れを理解してから、要件を機能とデータ構造に整理します。画面とAPIのルールを合わせ、テストと実際の画面で動作を確認します。
+
+AIツールも開発に活用し、SkillsとMCPで調査・実装・検証の手順を整えています。中核となる設計は自分で判断し、生成されたコードもレビューと検証を行います。
+
+</details>
 
 ---
-
-## 🛠 Tech Stack
 
 <div align="center">
-
-  <table>
-    <tr>
-      <td align="right"><b>Frontend</b></td>
-      <td><img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind&theme=dark" height="42" /></td>
-    </tr>
-    <tr>
-      <td align="right"><b>Backend</b></td>
-      <td><img src="https://skillicons.dev/icons?i=python,fastapi,java,spring&theme=dark" height="42" /></td>
-    </tr>
-    <tr>
-      <td align="right"><b>Data / Infra</b></td>
-      <td><img src="https://skillicons.dev/icons?i=mysql,mongodb,docker,git,github,vercel&theme=dark" height="42" /></td>
-    </tr>
-    <tr>
-      <td align="right"><b>AI / ML</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/LightGBM-0D1117?style=for-the-badge&labelColor=0D1117&color=7DD3FC" height="28" />
-        <img src="https://img.shields.io/badge/Learning--to--Rank-0D1117?style=for-the-badge&labelColor=0D1117&color=86EFAC" height="28" />
-        <img src="https://img.shields.io/badge/Recommendation-0D1117?style=for-the-badge&labelColor=0D1117&color=FB7185" height="28" />
-      </td>
-    </tr>
-  </table>
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Jiwon-iii&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=7DD3FC&icon_color=86EFAC&text_color=C9D1D9&ring_color=7DD3FC" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jiwon-iii&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=7DD3FC&text_color=C9D1D9" alt="top languages" />
-
-  <br/>
-
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Jiwon-iii&hide_border=true&background=0D1117&stroke=30363D&ring=7DD3FC&fire=86EFAC&currStreakNum=C9D1D9&currStreakLabel=7DD3FC&sideNums=C9D1D9&sideLabels=8B949E&dates=8B949E" alt="streak" />
-
-  <br/>
-  <br/>
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jiwon-iii&theme=react-dark&bg_color=0D1117&color=7DD3FC&line=86EFAC&point=FFFFFF&hide_border=true&radius=8&area=true&custom_title=Contribution%20Activity" alt="activity graph" width="98%" />
-
-</div>
-
----
-
-## 📌 Selected Projects
-
-> 대부분의 프로젝트는 협업·보안상 **Private Repository**로 관리하고 있습니다.
-
-| | Project | What I built |
-|:--:|:--|:--|
-| 🗺 | **AI 추천 / 위치 기반** | 근처 장소 랭킹 · GPS 기반 경로 생성 · 실시간 추천 로직 |
-| 🥋 | **스포츠 운영 자동화** | 출석 · 운영 관리 · 사용자 흐름 설계 SaaS |
-| 🛒 | **로컬 커머스 UI** | Next.js 기반 서비스형 UI 패턴 · 반응형 화면 구성 |
-| 💼 | **포트폴리오 / 웹 UI** | 프론트엔드 표현 · 인터랙션 실험 |
-
----
-
-## 💡 Key Strengths
-
-- **외주 기반 실전 경험** — 요구사항 정리부터 개발 · 수정 대응 · 운영까지 직접
-- **제품 흐름 중심 개발** — 사용자가 실제로 만나는 흐름 기준으로 기능 설계
-- **전방위 구현** — 프론트 · 백엔드 · AI/ML 로직을 하나로 연결
-- **추천 / 랭킹 관심** — Learning-to-Rank · cold-start · 위치 기반 추천
-
----
-
-<div align="center">
-
-  <a href="mailto:syrima03@gmail.com">
-    <img src="https://img.shields.io/badge/Email-syrima03@gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117" alt="Email" />
-  </a>
-  <a href="https://github.com/Jiwon-iii">
-    <img src="https://img.shields.io/badge/GitHub-Jiwon--iii-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D1117" alt="GitHub" />
-  </a>
-
-  <br/>
-  <br/>
-
-  <img src="https://komarev.com/ghpvc/?username=Jiwon-iii&style=flat-square&color=7dd3fc&label=Profile+views" alt="Profile views" />
-
+  <sub>신지원 / Shin Jiwon / シン・ジウォン</sub><br />
+  <a href="mailto:syrima03@gmail.com">syrima03@gmail.com</a>
 </div>
